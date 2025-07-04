@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code Editor | Lumion</title>
+  <link rel="icon" href="imagefiles/TitleLogo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="editor.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="imagefiles/LoginLogo.png" alt="Lumion Logo" />
+    </div>
+    <nav>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 id="editor-title">Code Editor</h1>
+    <p>Write and test your code here</p>
+  </section>
+
+  <section class="editor-container">
+    <div class="editor">
+      <textarea id="code-area"></textarea>
+    </div>
+    <div class="output">
+      <iframe id="output-frame"></iframe>
+    </div>
+  </section>
+
+  <div class="action">
+    <button onclick="runCode()">Run Code</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Lumion. All rights reserved.</p>
+  </footer>
+
+  <script src="editor.js">
+  </script>
+</body>
+</html>

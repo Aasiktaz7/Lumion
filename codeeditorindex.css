@@ -1,0 +1,160 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DBF9F0; 
+    color: #210124; 
+}
+
+
+header {
+    background-color: #210124;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .logo img {
+    height: 70px;
+}
+.logo{
+    margin-left: 44%;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(135deg, #210124, #750D37); 
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+.languages {
+    padding: 2rem;
+    text-align: center;
+}
+
+.languages h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.language-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    position: relative;
+    background-color: white;
+    border: 1px solid #B3DEC1;
+    border-radius: 8px;
+    width: 120px;
+    height: 120px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 60px;
+    margin-bottom: 1rem;
+}
+
+
+footer {
+    background-color: #210124; 
+    color: #F7F9F7; 
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.social-media-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.social-media-links .social-logo {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.social-media-links .social-logo:hover {
+    transform: scale(1.2); 
+}
+
+
+.legal-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.legal-links a {
+    color: #F7F9F7; 
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.legal-links a:hover {
+    color: #750D37;
+}
+
+
+footer p {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: #F7F9F7; 
+}
+
+
+@media (max-width: 768px) {
+    .logo{
+        margin-left: 27%;
+    }
+}
