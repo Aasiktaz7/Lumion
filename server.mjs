@@ -13,9 +13,9 @@ app.use(bodyParser.json());
 
 const db = mysql.createConnection({
     host: 'localhost', 
-    user: 'Ash',       
-    password: 'ash323', 
-    database: 'lumion', 
+    user: '',       
+    password: '', 
+    database: '', 
 });
 
 
@@ -82,8 +82,8 @@ app.post('/compile', async (req, res) => {
         script: sourceCode, 
         language: selectedLanguage.language,
         versionIndex: selectedLanguage.versionIndex,
-        clientId: '229e38e0b53522b36db92a3005db695', 
-        clientSecret: '33af5e22f5c5266523deb5dc5145b779980f1effbb966dbef75c5fe69baa84aa',
+        clientId: '', 
+        clientSecret: '',
     };
 
     try {
