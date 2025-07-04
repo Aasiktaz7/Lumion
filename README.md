@@ -1,0 +1,1 @@
+Open Server.mjs nd give your MySQL credentials. And also create an account in JDoodle's official website,they will provide you a clientID and clientSecret. copy it and paste it in Server.mjs . You're ready to go.
